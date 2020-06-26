@@ -11,6 +11,6 @@ https://youtu.be/UC2fJBYEUnI
 
 ## Installation
 1. Download the Live2d native SDK from https://www.live2d.com/en/download/cubism-sdk/
-2. Build the MSVC project followed the instruction for DX11 https://docs.live2d.com/cubism-sdk-tutorials/sample-build-directx11/
-3. Download library `dlib` and `opencv (3.4.0)` then include the header, library, into the MSVC project (if not sure, please take a look on internet how to include those library into your project)
+2. Build the MSVC (I'm using 2017) project followed the instruction for DX11 https://docs.live2d.com/cubism-sdk-tutorials/sample-build-directx11/
+3. Download library `dlib` and `opencv (3.4.0)` then include the header, library, into the MSVC project (if not sure, please take a look on internet how to include those library into your project). This step might take time if you are not used to the C++ compilation system and MSVC
 3. Replace/add the source code with the code in `src/` then try to build the solution. To gain performance, please change to `Release` mode
