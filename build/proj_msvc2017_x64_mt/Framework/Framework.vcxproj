@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2D50D282-1EF7-3D4A-BF06-60C4A3FFABB4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Framework</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\build\proj_msvc2017_x64_mt\Framework\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Framework.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Framework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\build\proj_msvc2017_x64_mt\Framework\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Framework.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Framework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\..\Core\include;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\..\Core\include;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\..\Core\include;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\..\Core\include;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\..\Core\include;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\..\Core\include;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\CubismCdiJson.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\CubismCdiJson.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\CubismDefaultParameterId.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\CubismDefaultParameterId.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\CubismFramework.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\CubismFramework.hpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\CubismFrameworkConfig.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\CubismModelSettingJson.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\CubismModelSettingJson.hpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\ICubismAllocator.hpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\ICubismModelSetting.hpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Live2DCubismCore.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Effect\CubismBreath.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Effect\CubismBreath.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Effect\CubismEyeBlink.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Effect\CubismEyeBlink.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Effect\CubismPose.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Effect\CubismPose.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Id\CubismId.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Id\CubismId.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Id\CubismIdManager.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Id\CubismIdManager.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismMath.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismMath.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismMatrix44.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismMatrix44.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismModelMatrix.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismModelMatrix.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismTargetPoint.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismTargetPoint.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismVector2.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismVector2.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismViewMatrix.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Math\CubismViewMatrix.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Model\CubismMoc.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Model\CubismMoc.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Model\CubismModel.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Model\CubismModel.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Model\CubismModelUserData.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Model\CubismModelUserData.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Model\CubismModelUserDataJson.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Model\CubismModelUserDataJson.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Model\CubismUserModel.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Model\CubismUserModel.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\ACubismMotion.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\ACubismMotion.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismExpressionMotion.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismExpressionMotion.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismMotion.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismMotion.hpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismMotionInternal.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismMotionJson.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismMotionJson.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismMotionManager.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismMotionManager.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismMotionQueueEntry.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismMotionQueueEntry.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismMotionQueueManager.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Motion\CubismMotionQueueManager.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Physics\CubismPhysics.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Physics\CubismPhysics.hpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Physics\CubismPhysicsInternal.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Physics\CubismPhysicsJson.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Physics\CubismPhysicsJson.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\CubismRenderer.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\CubismRenderer.hpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\D3D11\CubismNativeInclude_D3D11.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\D3D11\CubismOffscreenSurface_D3D11.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\D3D11\CubismOffscreenSurface_D3D11.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\D3D11\CubismRenderer_D3D11.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\D3D11\CubismRenderer_D3D11.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\D3D11\CubismRenderState_D3D11.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\D3D11\CubismRenderState_D3D11.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\D3D11\CubismShader_D3D11.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\D3D11\CubismShader_D3D11.hpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Rendering\D3D11\CubismType_D3D11.hpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Type\csmMap.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Type\csmRectF.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Type\csmRectF.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Type\csmString.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Type\csmString.hpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Type\csmVector.hpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Type\CubismBasicType.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Utils\CubismDebug.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Utils\CubismDebug.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Utils\CubismJson.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Utils\CubismJson.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Utils\CubismString.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src\Utils\CubismString.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

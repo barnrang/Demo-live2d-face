@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E7BCE3A9-A914-31EC-B923-F15E8020C9A2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Demo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/build/proj_msvc2017_x64_mt/bin/Demo/$(Configuration)</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\build\proj_msvc2017_x64_mt\bin\Demo\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Demo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/build/proj_msvc2017_x64_mt/bin/Demo/$(Configuration)</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\build\proj_msvc2017_x64_mt\bin\Demo\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Demo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\DELL GAMING\Downloads\opencv-341\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\DELL GAMING\Downloads\opencv-341\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Users\DELL GAMING\Downloads\opencv-341\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;C:\Users\DELL GAMING\Downloads\opencv-341\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Downloads\opencv-341\build\include;C:\Users\DELL GAMING\Documents\dlib-19.19;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/../../../../Samples/Resources" "C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/build/proj_msvc2017_x64_mt/bin/Demo/Debug/Resources"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Framework\Debug\Framework.lib;-NODEFAULTLIB:libcmtd.lib;opencv_world341d.lib;..\..\..\..\..\..\Core\lib\windows\x86_64\141\Live2DCubismCore_MTd.lib;..\..\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Bin\Desktop_2017\x64\Debug\DirectXTK.lib;d3d11.lib;d3dcompiler.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\DELL GAMING\Downloads\opencv-341\build\x64\vc15\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/build/proj_msvc2017_x64_mt/Debug/Demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/build/proj_msvc2017_x64_mt/bin/Demo/Debug/Demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Downloads\opencv-341\build\include;C:\Users\DELL GAMING\Documents\dlib-19.19;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Framework\src;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Inc;C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\..\..\..\..\Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/../../../../Samples/Resources" "C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/build/proj_msvc2017_x64_mt/bin/Demo/Release/Resources"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opencv_world341d.lib;opencv_world341.lib;Framework\Release\Framework.lib;-NODEFAULTLIB:libcmt.lib;..\..\..\..\..\..\Core\lib\windows\x86_64\141\Live2DCubismCore_MT.lib;..\..\..\..\..\..\Samples\D3D11\thirdParty\DirectXTK\Bin\Desktop_2017\x64\Release\DirectXTK.lib;d3d11.lib;d3dcompiler.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);C:\Users\DELL GAMING\Downloads\opencv-341\build\x64\vc15\lib;</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/build/proj_msvc2017_x64_mt/Release/Demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/build/proj_msvc2017_x64_mt/bin/Demo/Release/Demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Documents\dlib-19.19\dlib\all\source.cpp" />
+    <ClCompile Include="..\..\src\LCameraManager.cpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppAllocator.cpp" />
+    <ClInclude Include="..\..\src\LCameraManager.h" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppAllocator.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppDefine.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppDefine.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppDelegate.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppDelegate.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppLive2DManager.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppLive2DManager.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppModel.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppModel.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppPal.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppPal.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppSprite.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppSprite.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppTextureManager.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppTextureManager.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppView.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppView.hpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\main.cpp" />
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\TouchManager.cpp" />
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\TouchManager.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\build\proj_msvc2017_x64_mt\Framework\Framework.vcxproj">
+      <Project>{2D50D282-1EF7-3D4A-BF06-60C4A3FFABB4}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

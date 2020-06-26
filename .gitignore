@@ -1,0 +1,6 @@
+.vs/
+*.dll
+*.lib
+*.dat
+Demo.dir/
+bin/

@@ -1,0 +1,3 @@
+C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/build/proj_msvc2017_x64_mt/CMakeFiles/Demo.dir
+C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/build/proj_msvc2017_x64_mt/CMakeFiles/ALL_BUILD.dir
+C:/Users/DELL GAMING/Desktop/CubismSdkForNative-4-r.1/CubismSdkForNative-4-r.1/Samples/D3D11/Demo/proj.d3d11.cmake/build/proj_msvc2017_x64_mt/Framework/CMakeFiles/Framework.dir

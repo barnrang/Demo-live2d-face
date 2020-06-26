@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppDefine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppLive2DManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppPal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppTextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\TouchManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Documents\dlib-19.19\dlib\all\source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\LCameraManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppAllocator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppDefine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppLive2DManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppPal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppSprite.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppTextureManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\LAppView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL GAMING\Desktop\CubismSdkForNative-4-r.1\CubismSdkForNative-4-r.1\Samples\D3D11\Demo\proj.d3d11.cmake\src\TouchManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\LCameraManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{79A9E35B-C161-3898-A9D2-5418D7C42519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFB30F69-CB41-3823-8214-1A62EAC2625F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
