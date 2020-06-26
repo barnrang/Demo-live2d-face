@@ -1,6 +1,6 @@
-# Live2d face (Inspired by Facerig)
+# Live2d face (Inspired by Facerig https://facerig.com/)
 
-## Example
+## Demo
 Myself trying to speak somthing.
 
 https://youtu.be/UC2fJBYEUnI
